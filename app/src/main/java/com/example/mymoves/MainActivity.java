@@ -140,14 +140,20 @@ public class MainActivity extends AppCompatActivity implements OnMovieListener {
               return false;
           }
       }) ;
-  }catch (Exception e){
+  }
+
+  catch(Exception e){
       Log.d("errrrror",e.getMessage().toString());
   }
 
 
     }
 
-  /*  private void getRetrofitResponse() {
+
+    //ssssssssssssssssssssssscccccdgwfafeeeee
+
+
+    /*  private void getRetrofitResponse() {
 
         MovieApi movieApi = Services
                 .getMovieApi();
